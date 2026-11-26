@@ -2,6 +2,7 @@
 
 Writes one short agent motto to $MAKEFUN_OUTPUT_DIR/entry.txt
 (default: the current directory), with no trailing newline.
+The motto is validated for length and shape before it is written.
 """
 import os
 
